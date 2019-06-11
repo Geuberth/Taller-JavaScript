@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+    <tittle>funcion factorial resursiva</tittle>
+</head>
+        <body>
+          <script>
+              var txt;
+              txt = parseInt(prompt("Favor ingresar el numero: ") );
+                function factorialrecursivo( f ){
+                  if (f == 0)
+                    return 1;
+                    else {
+                      return f * factorialrecursivo (f-1);
+                    }
+                }
+          console.log("El factorial de ", txt," es ", factorialrecursivo(txt) );
+          alert(factorialrecursivo(txt));
+          </script>
+        </body>
+</HTML>
